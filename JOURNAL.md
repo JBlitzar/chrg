@@ -63,6 +63,8 @@ Added a b.silkscreen, played around a little bit, and made a blender render!
 
 ![](journal/render1.png)
 
-I think the blue color grading is fun. 
+I think the blue color grading is cool. 
+
+Honestly atp most design work was fun. Kind of a speedrun lol. I guess I'll write docs and stuff and see how my design review goes. 
 
 Time spent: 0.61 hours
