@@ -14,5 +14,8 @@ Should I auto boost to some standard 20v or 24v in case PEBKAC plugs in a charge
 
 Found a datasheet at https://www.tinytronics.nl/product_files/004122_IP6518-datasheet.pdf , schematic on page 8.
 
+Yeah, made the rest of the design, copied it four times and changed the labels. Inductor sourcing was exciting but not too tricky. Ended up just putting one fuse. And I think LEDs for each is good UX. 
 
-37 minutes
+![](journal/schem1.png)
+
+Time spent: 0.93 hours
