@@ -68,3 +68,11 @@ I think the blue color grading is cool.
 Honestly atp most design work was fun. Kind of a speedrun lol. I guess I'll write docs and stuff and see how my design review goes. 
 
 Time spent: 0.61 hours
+
+# Aug 18: README skeleton
+
+Started in on the README. Fun to write. Probably my next step is to actually get a quote off of JLC and then polish off any and all requirements
+
+![](journal/readme.png)
+
+Time spent: 0.3 hours
