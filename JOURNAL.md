@@ -19,3 +19,33 @@ Yeah, made the rest of the design, copied it four times and changed the labels. 
 ![](journal/schem1.png)
 
 Time spent: 0.93 hours
+
+# Aug 17
+
+QoL on the schematic, made it subsheets.
+
+Got started on the layout!
+
+I learned the "Multichannel" tooling in Kicad, which simplified things. This way I only have to place and route once!!
+
+Finished placement ![](journal/placement1.png)
+
+aand finished routing. Man, it's so satisfying to click "repeat layout"
+
+![](journal/routing1.png)
+
+DRC was pretty minor, actually. Just one or two poorly placed vias, then bumped the clearance down to 0.15mm because jlc goes down to 0.09 or whatever. Ignore the annular width, that's irrelevant (easyeda2kicad footprints, I know)
+
+But uh yeah!
+
+Time tracking:
+
+started 5:04 pm
+
+ended 5:34
+
+resumed 6:08
+
+Ended 7:18
+
+Time spent: 1.66 hours
