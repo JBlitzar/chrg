@@ -49,3 +49,20 @@ resumed 6:08
 Ended 7:18
 
 Time spent: 1.66 hours
+
+# Aug 17: sk polish and render
+
+
+Time tracking:
+- Started 7:18
+- Ended 7:54
+
+Added a b.silkscreen, played around a little bit, and made a blender render!
+
+![](journal/bsk.png)
+
+![](journal/render1.png)
+
+I think the blue color grading is fun. 
+
+Time spent: 0.61 hours

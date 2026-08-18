@@ -1,6 +1,8 @@
 # chrg
 usbc charging hub
 
+![](blend/render1.png)
+
 
 ## Testimonials
 
