@@ -20,7 +20,7 @@ Yeah, made the rest of the design, copied it four times and changed the labels. 
 
 Time spent: 0.93 hours
 
-# Aug 17
+# Aug 17: first pass on routing
 
 QoL on the schematic, made it subsheets.
 
