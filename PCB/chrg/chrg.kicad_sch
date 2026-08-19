@@ -497,6 +497,160 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc:0805W8F1002T5E"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "0805W8F1002T5E"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:R0805"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C17414.pdf"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "UNI-ROYAL(厚声)"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "0805W8F1002T5E"
+				(at 0 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C17414"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Chip Resistor - Surface Mount"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0805W8F1002T5E_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc:2410T4A_125V"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1159,13 +1313,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc:FRC0805F1002TS"
+		(symbol "lcsc:CL31A107MQHNNNE"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
+			(property "Reference" "C"
 				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1175,7 +1329,7 @@
 					)
 				)
 			)
-			(property "Value" "FRC0805F1002TS"
+			(property "Value" "CL31A107MQHNNNE"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1185,7 +1339,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:R0805"
+			(property "Footprint" "easyeda2kicad:C1206"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1196,7 +1350,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C2907219.pdf"
+			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL31A107MQHNNNE_100uF-107-20-6-3V_C15008.html"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1207,7 +1361,7 @@
 					)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "100uF (107) ±20% 6.3V"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1218,7 +1372,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "FOJAN(富捷)"
+			(property "Manufacturer" "SAMSUNG(三星)"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1229,7 +1383,7 @@
 					)
 				)
 			)
-			(property "MPN" "FRC0805F1002TS"
+			(property "MPN" "CL31A107MQHNNNE"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1240,7 +1394,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C2907219"
+			(property "LCSC Part" "C15008"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1251,7 +1405,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "Chip Resistor - Surface Mount"
+			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1262,20 +1416,57 @@
 					)
 				)
 			)
-			(symbol "FRC0805F1002TS_0_1"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
+			(symbol "CL31A107MQHNNNE_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.51 0)
+					)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
 					)
 				)
-				(pin unspecified line
-					(at -5.08 0 0)
+				(polyline
+					(pts
+						(xy -0.51 2.03) (xy -0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 2.03) (xy 0.51 -2.03)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.51 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -1292,8 +1483,8 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 5.08 0 180)
+				(pin input line
+					(at 3.81 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -2376,6 +2567,109 @@
 			)
 		)
 	)
+	(global_label "VIN"
+		(shape input)
+		(at 67.31 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc2174a6-2e76-4f35-bc86-42b67fca5166")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 61.3009 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 74.93 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "12ca0c82-43e8-4f9d-9ffb-383c06af3f95")
+		(property "Reference" "#PWR010"
+			(at 81.28 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 30.4799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 74.93 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc5ebbdf-90c1-4727-bc01-145d7f60c28b")
+		)
+		(instances
+			(project "chrg"
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "lcsc:0805G")
 		(at 119.38 45.72 0)
@@ -2484,6 +2778,119 @@
 			(project "chrg"
 				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389"
 					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:CL31A107MQHNNNE")
+		(at 71.12 30.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "306fbdd5-9c2d-4022-bc8b-7c6f82f51fa7")
+		(property "Reference" "C14"
+			(at 71.12 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100uF"
+			(at 71.12 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:C1206"
+			(at 71.12 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL31A107MQHNNNE_100uF-107-20-6-3V_C15008.html"
+			(at 71.12 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100uF (107) ±20% 6.3V"
+			(at 71.12 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "SAMSUNG(三星)"
+			(at 71.12 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL31A107MQHNNNE"
+			(at 71.12 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C15008"
+			(at 71.12 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d30a366-7057-4dad-9d64-adc052165f93")
+		)
+		(pin "2"
+			(uuid "898e3b4b-f167-43ba-87c2-3560a117ce73")
+		)
+		(instances
+			(project "chrg"
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -2651,10 +3058,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "544b3d8b-f06e-43d7-b96b-cb76daa8aae9")
 		(property "Reference" "TP2"
@@ -3028,7 +3435,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10A105KO8NNNC"
+		(property "MPN" "CL10A105KB8NNNC"
 			(at 127 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3039,7 +3446,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C1592"
+		(property "LCSC Part" "C15849"
 			(at 129.54 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3071,10 +3478,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "81019864-363c-4755-9761-cbebda12317a")
 		(property "Reference" "TP1"
@@ -3788,7 +4195,7 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:FRC0805F1002TS")
+		(lib_id "lcsc:0805W8F1002T5E")
 		(at 69.85 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -3830,7 +4237,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907219.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C17414.pdf"
 			(at 69.85 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3852,7 +4259,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN(富捷)"
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
 			(at 69.85 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -3863,7 +4270,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRC0805F1002TS"
+		(property "MPN" "0805W8F1002T5E"
 			(at 69.85 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -3874,7 +4281,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2907219"
+		(property "LCSC Part" "C17414"
 			(at 69.85 72.39 0)
 			(hide yes)
 			(show_name no)

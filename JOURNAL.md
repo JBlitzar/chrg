@@ -76,3 +76,33 @@ Started in on the README. Fun to write. Probably my next step is to actually get
 ![](journal/readme.png)
 
 Time spent: 0.3 hours
+
+# Aug 18 BOM opt
+
+Starting price for PCBA was $100 (zamn)
+
+Started with the low-hanging-fruit Basic substitutions.
+
+  - C1592 -> C15849
+  - C131394 -> C1525
+  - C14442 -> C1523
+  - C137992 -> C25890
+  - C2907219 -> C17414
+
+Just those subs will bring PCBA cost down to 83.
+
+  
+And other substitutions that change footprint that I'll still make:
+
+ - Use C59461 for the 22uF
+ - use C15008 for the 100uF
+ - use C22977 for the 2ohm
+
+ Got sort of midway through the refactor.
+
+ ![](journal/refactor.png)
+
+ 
+Time tracking:
+ - started 8pm
+ - Ended 8:52
