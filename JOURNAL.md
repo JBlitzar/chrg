@@ -106,3 +106,5 @@ And other substitutions that change footprint that I'll still make:
 Time tracking:
  - started 8pm
  - Ended 8:52
+
+ Time spent: 0.8 hours
