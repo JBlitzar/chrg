@@ -107,4 +107,6 @@ Time tracking:
  - started 8pm
  - Ended 8:52
 
- Time spent: 0.8 hours
+Gonna deflate a little bit.
+
+Time spent: 0.5 hours
