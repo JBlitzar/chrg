@@ -118,3 +118,13 @@ Placed the rest of the big caps, small session today. I might do a bit more late
 ![](journal/refactor2.png)
 
 Time spent: 0.25 hours
+
+# August 20: Made it manufacturable and only committed one aesthetic atrocity
+
+Because easyeda2kicad footprints suck, I have to make sure clearances acc work. Moved around some caps, clicked repeat layout. 
+
+Only ONE weirdly tilted component lol
+
+![](journal/tilt.png)
+
+Time spent: 0.25 hours
