@@ -110,3 +110,11 @@ Time tracking:
 Gonna deflate a little bit.
 
 Time spent: 0.5 hours
+
+# August 19 refactor
+
+Placed the rest of the big caps, small session today. I might do a bit more later I guess. Only minor battles with DRC. tbd if the easyeda2kicad footprints are sus. Also deleted the test points because I can always desolder the global 100uf and use those as bodge pads. 
+
+![](journal/refactor2.png)
+
+Time spent: 0.25 hours
