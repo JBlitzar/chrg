@@ -10,12 +10,13 @@ chrg is a usbc charging hub. You can use it to charge your devices! It uses a CH
 
 Thanks to the IP6518, it should support:
 
+ - 45W
  - USB-C Power Delivery
  - BC1.2 charging
  - Qualcomm QC2.0 and 3.0 charging
  - Apple, Huawei, Samsung, and Speadtrum fast charging protocols
 
- Of course, YMMV when plugging in multiple devices. It's mostly bottlenecked by the wattage of your upstream brick.
+ Of course, YMMV when plugging in multiple devices. It's mostly bottlenecked by the wattage of your upstream brick (or alternatively 45W as the ip6518 spec says).
 
  I made this project because I like doing USB projects, and after making a [USB *data* hub](https://github.com/jblitzar/uhub), I thought it would be cool to make a *charging* hub. Plus, this way I can plug in one brick and charge my phone and headphones at the same time. I also think it's cool and was a way to learn a new chip (IP6518).
 
