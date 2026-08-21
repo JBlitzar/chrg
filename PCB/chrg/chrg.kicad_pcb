@@ -30431,7 +30431,6 @@
 		)
 	)
 	(zone
-		(locked yes)
 		(layers "F.Cu" "B.Cu")
 		(uuid "2d4e58d3-aea7-4600-ad7c-a09ae583a34a")
 		(name "auto-placement-area-/out/")
