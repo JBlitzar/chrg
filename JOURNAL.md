@@ -128,3 +128,32 @@ Only ONE weirdly tilted component lol
 ![](journal/tilt.png)
 
 Time spent: 0.25 hours
+
+# August 20: Aggressive BOM opt
+
+Time for some intelligent component swapping.
+
+Nuked the 220uFs. Now just one global 100uF.
+
+There is only one LED resistor value, 3.3k.
+
+Now PCBA cost is down to $57 !
+
+genuinely BOM is starting to be irreducable. Actually cheap components matter.
+
+Eating BOM:
+ - inductors (see if can source better?? TBD)
+ - IP6518 (the cheapest there is on LCSC, 8pcs genuinely is $12)
+ - 1k ch224k resistor is extended, can probably source better
+
+ Dicey stuff:
+  - see if need fuse?
+  - see if need CR decoupling on the 22uh vout line?
+
+
+Found C364085 as a different inductor, should shave another $8.
+
+![](journal/quote.png)
+
+
+Time spent: 1 hour
