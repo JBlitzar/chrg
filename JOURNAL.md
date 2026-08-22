@@ -157,3 +157,31 @@ Found C364085 as a different inductor, should shave another $8.
 
 
 Time spent: 1 hour
+
+# August 21: Swapped the inductor, cleaned routing
+
+Yeah! Made some thicker traces. this inductor is cheaper and smaller. It does have 3x the DCR, but that's okay I guess. It does change the look a bit too though.
+
+![](journal/routing2.png)
+![](journal/newind.png)
+
+Then I re-exported for the blender render. Spent a bit trying to get the colors right.
+
+![](journal/render2.png)
+
+Then I got another quote. Guess how much PCBA costs now??
+
+That's right, $45 !!!
+
+That is very much down from $100.
+
+Since this is p much finalized / irreducable, I made the BOMs.
+
+
+Time tracking
+ - Started 4:20
+ - ended 5:10
+ - resumed 5:52
+ - 
+
+Time spent:

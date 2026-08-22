@@ -1680,7 +1680,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc:MTF1810-220M"
+		(symbol "lcsc:SLO1350H220MTT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1696,7 +1696,7 @@
 					)
 				)
 			)
-			(property "Value" "MTF1810-220M"
+			(property "Value" "SLO1350H220MTT"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1706,7 +1706,7 @@
 					)
 				)
 			)
-			(property "Footprint" "easyeda2kicad:IND-SMD_L18.3-W18.2_MTF1810"
+			(property "Footprint" "easyeda2kicad:IND-SMD_L14.4-W12.8"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1717,7 +1717,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C5361009.pdf"
+			(property "Datasheet" "https://lcsc.com/product-detail/Others_Sunltech-Tech-SLO1350H220MTT_C364085.html"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1739,7 +1739,7 @@
 					)
 				)
 			)
-			(property "Manufacturer" "COILMX(迈翔科技)"
+			(property "Manufacturer" "Sunltech(顺磁)"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1750,7 +1750,7 @@
 					)
 				)
 			)
-			(property "MPN" "MTF1810-220M"
+			(property "MPN" "SLO1350H220MTT"
 				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1761,7 +1761,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C5361009"
+			(property "LCSC Part" "C364085"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1783,7 +1783,7 @@
 					)
 				)
 			)
-			(symbol "MTF1810-220M_0_1"
+			(symbol "SLO1350H220MTT_0_1"
 				(arc
 					(start -4.29 0.02)
 					(mid -3.28 0.9647)
@@ -4417,6 +4417,131 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc:SLO1350H220MTT")
+		(at 69.85 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ec9ee7d-3f6e-4d48-bfee-fd206ad7cdf2")
+		(property "Reference" "L1"
+			(at 69.82 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SLO1350H220MTT"
+			(at 69.82 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:IND-SMD_L14.4-W12.8"
+			(at 69.85 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Others_Sunltech-Tech-SLO1350H220MTT_C364085.html"
+			(at 69.85 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 69.85 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Sunltech(顺磁)"
+			(at 69.85 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "SLO1350H220MTT"
+			(at 69.85 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C364085"
+			(at 69.85 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "14fbaa88-8118-4e21-b3a3-4097e3a17095")
+		)
+		(pin "1"
+			(uuid "c4011e55-49c0-4cb4-8c17-a9ff3c232973")
+		)
+		(instances
+			(project "chrg"
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/008349a9-e580-4854-bbec-06b61ef06a6b"
+					(reference "L2")
+					(unit 1)
+				)
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/27617b1d-fd99-4571-a151-dc69e7cb18d7"
+					(reference "L4")
+					(unit 1)
+				)
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/530af39d-cd18-44af-97ca-e70c472550e3"
+					(reference "L3")
+					(unit 1)
+				)
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/f72d401b-64a9-418f-a9c0-87adba67f048"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 95.25 46.99 0)
 		(unit 1)
@@ -4718,131 +4843,6 @@
 				)
 				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/f72d401b-64a9-418f-a9c0-87adba67f048"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc:MTF1810-220M")
-		(at 69.85 36.83 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fc5d28d-ceab-4a70-8565-efc277c1eb62")
-		(property "Reference" "L6"
-			(at 69.82 31.496 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22uH"
-			(at 69.82 34.036 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:IND-SMD_L18.3-W18.2_MTF1810"
-			(at 69.85 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5361009.pdf"
-			(at 69.85 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "COILMX(迈翔科技)"
-			(at 69.85 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MTF1810-220M"
-			(at 69.85 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C5361009"
-			(at 69.85 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1b813e8f-8aee-45ad-8e6d-3be3e6ee5e24")
-		)
-		(pin "2"
-			(uuid "22674fcc-3dca-4b28-8761-fd1660382118")
-		)
-		(instances
-			(project "chrg"
-				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/008349a9-e580-4854-bbec-06b61ef06a6b"
-					(reference "L7")
-					(unit 1)
-				)
-				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/27617b1d-fd99-4571-a151-dc69e7cb18d7"
-					(reference "L9")
-					(unit 1)
-				)
-				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/530af39d-cd18-44af-97ca-e70c472550e3"
-					(reference "L8")
-					(unit 1)
-				)
-				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/f72d401b-64a9-418f-a9c0-87adba67f048"
-					(reference "L6")
 					(unit 1)
 				)
 			)
