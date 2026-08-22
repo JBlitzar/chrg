@@ -57,7 +57,6 @@ Don't just take it from me! Hear what users are saying about chrg
 |5x PCB (moq)                                      |N/A                                |4   |JLC             |
 |2x PCBA (moq)                                     |N/A                                |45.87|JLC             |
 |JLC shipping + taxes                              |N/A                                |8   |                |
-|1x case                                           |N/A                                |0   |I can print this myself|
 |Total                                             |N/A                                |57.87|                |
 
 
