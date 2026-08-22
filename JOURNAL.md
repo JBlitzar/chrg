@@ -182,6 +182,6 @@ Time tracking
  - Started 4:20
  - ended 5:10
  - resumed 5:52
- - 
+ - ended 6:02
 
-Time spent:
+Time spent: 1 hour
