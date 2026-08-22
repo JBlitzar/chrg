@@ -185,3 +185,18 @@ Time tracking
  - ended 6:02
 
 Time spent: 1 hour
+
+
+# August 21: messed around
+
+I guess I will do a case after all.
+
+Messed around with silkscreen, ended up just keeping the anvil and qr code in the end
+
+![](journal/skst.png)
+
+And then I added mounting holes!! They are M2 because M3 was inconvenient to place. I can get m2 screws or use m2 3d printed fingers.
+
+The triangle placement is pretty aura if i do say so myself
+
+![](journal/holes.png)
