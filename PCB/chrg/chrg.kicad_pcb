@@ -1082,7 +1082,7 @@
 				)
 			)
 		)
-		(property "Description" "16V 1uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "CAP CER 1uF 50V X5R 0603"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1105,7 +1105,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3040,6 +3040,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -4802,6 +4803,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5052,6 +5054,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6512,6 +6515,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -9373,6 +9377,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -13828,6 +13833,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -19254,7 +19260,7 @@
 			(uuid "5f8df332-01d8-4ff0-b296-422060d6c04c")
 			(effects
 				(font
-					(size 0 0)
+					(size 0.001 0.001)
 					(line_spacing 0)
 				)
 			)
@@ -19267,7 +19273,7 @@
 			(uuid "a001767b-1472-4ed6-af05-d07f5eafe44f")
 			(effects
 				(font
-					(size 0 0)
+					(size 0.001 0.001)
 					(line_spacing 0)
 				)
 			)
@@ -19280,7 +19286,7 @@
 			(uuid "0503a850-a954-4c51-a38c-b71f00c167a0")
 			(effects
 				(font
-					(size 0 0)
+					(size 0.001 0.001)
 					(line_spacing 0)
 				)
 			)
@@ -19293,7 +19299,7 @@
 			(uuid "d86d73b7-6d26-4a3c-838e-a8f61be1da76")
 			(effects
 				(font
-					(size 0 0)
+					(size 0.001 0.001)
 					(line_spacing 0)
 				)
 			)
@@ -19306,8 +19312,9 @@
 			(uuid "f970b8f7-4b20-4025-a4c6-e3405f308c46")
 			(effects
 				(font
-					(size 0 0)
+					(size 0.001 0.001)
 					(line_spacing 0)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -29937,22 +29944,6 @@
 		(uuid "4a3e891c-c759-413f-af36-0feeeed8988c")
 	)
 	(segment
-		(start 118.26 106.25)
-		(end 118.26 104.745)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(LED1-A)")
-		(uuid "9f82e766-4154-4e26-b4d3-782211918bb5")
-	)
-	(segment
-		(start 118.26 104.745)
-		(end 118.53 104.475)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "Net-(LED1-A)")
-		(uuid "daead8a1-a57a-4979-8bc5-a79498e4821d")
-	)
-	(segment
 		(start 113.76 103)
 		(end 113.76 104.75)
 		(width 0.2)
@@ -30343,6 +30334,22 @@
 		(layer "F.Cu")
 		(net "Net-(C47-Pad1)")
 		(uuid "57d09329-2d59-45ae-aa33-fd83c07a79d9")
+	)
+	(segment
+		(start 118.26 106.25)
+		(end 118.26 104.745)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(LED1-A)")
+		(uuid "9f82e766-4154-4e26-b4d3-782211918bb5")
+	)
+	(segment
+		(start 118.26 104.745)
+		(end 118.53 104.475)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "Net-(LED1-A)")
+		(uuid "daead8a1-a57a-4979-8bc5-a79498e4821d")
 	)
 	(segment
 		(start 39.385 98.368717)

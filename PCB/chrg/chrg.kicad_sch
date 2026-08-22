@@ -3258,7 +3258,7 @@
 				)
 			)
 		)
-		(property "Description" "16V 1uF X5R ±10% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
+		(property "Description" "CAP CER 1uF 50V X5R 0603"
 			(at 111.76 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3269,7 +3269,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" ""
 			(at 124.46 30.48 0)
 			(hide yes)
 			(show_name no)
