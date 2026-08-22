@@ -202,3 +202,11 @@ The triangle placement is pretty aura if i do say so myself
 ![](journal/holes.png)
 
 Time spent: 0.3 hours
+
+# August 22: Case
+
+I made a case in Onshape. Chamferred the edges, added the holes. Internal fillet for structural integrity. Not much more to say I guess, this is how making enclosures goes?
+
+![](journal/cadshot.png)
+
+Time spent: 1.2 hours
