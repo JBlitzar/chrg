@@ -200,3 +200,5 @@ And then I added mounting holes!! They are M2 because M3 was inconvenient to pla
 The triangle placement is pretty aura if i do say so myself
 
 ![](journal/holes.png)
+
+Time spent: 0.3 hours
