@@ -37,6 +37,16 @@ Schematic for the `out` block:
 
 ![](docs/pcb.png)
 
+## CAD
+
+![](docs/cadshot.png)
+
+Onshape link: https://cad.onshape.com/documents/9567810a3a804626e0b9bd5e/w/546991992eff6807c34164d7/e/56ab2d679f572004bdd7b5fb?renderMode=0&uiState=6a89de2326941f564e9ba193
+
+Assembly: [CAD/chrg_assembly.step](CAD/chrg_assembly.step)
+
+PCB is held in place with the mounting holes
+
 
 ## Testimonials
 
