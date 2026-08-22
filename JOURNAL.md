@@ -209,4 +209,4 @@ I made a case in Onshape. Chamferred the edges, added the holes. Internal fillet
 
 ![](journal/cadshot.png)
 
-Time spent: 1.2 hours
+Time spent: 1 hour
