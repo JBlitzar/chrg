@@ -14,7 +14,7 @@ Thanks to the IP6518, it should support:
  - USB-C Power Delivery
  - BC1.2 charging
  - Qualcomm QC2.0 and 3.0 charging
- - Apple, Huawei, Samsung, and Speadtrum fast charging protocols
+ - Apple, Huawei, Samsung, and Spreadtrum fast charging protocols
 
  Of course, YMMV when plugging in multiple devices. It's mostly bottlenecked by the wattage of your upstream brick (or alternatively 45W as the ip6518 spec says).
 
