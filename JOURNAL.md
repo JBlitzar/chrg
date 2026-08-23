@@ -210,3 +210,13 @@ I made a case in Onshape. Chamferred the edges, added the holes. Internal fillet
 ![](journal/cadshot.png)
 
 Time spent: 1 hour
+
+# August 23: Submission requirements
+
+Went through the submission requirements, updated the README. Then I went through the elite review checklist requirements.
+
+Added a hole in my case to make it actually assembleable 💀 
+
+![](journal/case_assembly.png)
+
+Time spent: 0.5 hours
