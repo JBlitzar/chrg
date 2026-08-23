@@ -47,6 +47,19 @@ Assembly: [CAD/chrg_assembly.step](CAD/chrg_assembly.step)
 
 PCB is held in place with the mounting holes
 
+## How to use
+
+### Assembly
+
+Print chrg_case.step instead and slide it in from the side, like so:
+
+![](docs/case_assembly.png)
+
+Then the pins should keep it secure. 
+
+### Usage
+
+Plug a usbc laptop charger into the side port. Then, charge your devices from the front ports!
 
 ## Testimonials
 
