@@ -1,9 +1,5 @@
 # chrg
 
-> [!IMPORTANT]
-> Need to do 3D model, case, and images of those
-> Need to export and BOM optimize. 
-
 ![](blend/render1.png)
 
 chrg is a usbc charging hub. You can use it to charge your devices! It uses a CH224K PD sink as input, and then 4xIP6518 PD source controllers as output. 
@@ -44,6 +40,8 @@ Schematic for the `out` block:
 [Onshape link](https://cad.onshape.com/documents/9567810a3a804626e0b9bd5e/w/546991992eff6807c34164d7/e/56ab2d679f572004bdd7b5fb?renderMode=0&uiState=6a89de2326941f564e9ba193)
 
 Assembly: [CAD/chrg_assembly.step](CAD/chrg_assembly.step)
+
+Or just check the [CAD folder](CAD/)
 
 PCB is held in place with the mounting holes
 
