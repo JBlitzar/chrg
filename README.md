@@ -1,5 +1,13 @@
 # chrg
 
+## Note to the reviewer
+
+I'll delete this section after review. Anyways, my previous rejection was for not having links in BOM, and not writing why I made this project. 
+
+My readme has a section on why I made this project, and I have added links to my README BOM, so I'm resubmitting!
+
+---
+
 ![](blend/render1.png)
 
 chrg is a usbc charging hub. You can use it to charge your devices! It uses a CH224K PD sink as input, and then 4xIP6518 PD source controllers as output. 
@@ -13,6 +21,8 @@ Thanks to the IP6518, it should support:
  - Apple, Huawei, Samsung, and Spreadtrum fast charging protocols
 
  Of course, YMMV when plugging in multiple devices. It's mostly bottlenecked by the wattage of your upstream brick (or alternatively 45W as the ip6518 spec says).
+
+ ### Why I made this project
 
  I made this project because I like doing USB projects, and after making a [USB *data* hub](https://github.com/jblitzar/uhub), I thought it would be cool to make a *charging* hub. Plus, this way I can plug in one brick and charge my phone and headphones at the same time. I also think it's cool and was a way to learn a new chip (IP6518).
 
@@ -86,20 +96,20 @@ Don't just take it from me! Hear what users are saying about chrg
 
 Other fabrication outputs at [PCB/chrg/production](PCB/chrg/production)
 
-|Designator                                        |Footprint                          |Quantity|Value           |LCSC Part #|
-|--------------------------------------------------|-----------------------------------|--------|----------------|-----------|
-|C1                                                |C0603                              |1       |1uf             |C15849     |
-|C10, C11, C12, C13, C2, C3, C4, C5, C6, C7, C8, C9|C0603                              |12      |22uF            |C59461     |
-|C14                                               |C1206                              |1       |100uF           |C15008     |
-|C32, C34, C39, C41, C46, C48, C53, C55            |C0402                              |8       |100nF           |C1525      |
-|C33, C40, C47, C54                                |C0402                              |4       |1nF             |C1523      |
-|F1                                                |FUSE-SMD_2410-T4A-125V             |1       |4A fuse         |C5220739   |
-|L1, L2, L3, L4                                    |IND-SMD_L14.4-W12.8                |4       |SLO1350H220MTT  |C364085    |
-|LED1, LED6, LED7, LED8, LED9                      |LED0805-R-RD                       |5       |0805G           |C2297      |
-|R16, R17, R19, R20, R21, R22, R23, R25, R26       |R0402                              |9       |3.3kΩ           |C25890     |
-|R2                                                |R0402                              |1       |1k              |C11702     |
-|R3, R4, R5, R6                                    |R0603                              |4       |2Ω              |C22977     |
-|U1                                                |R0805                              |1       |10k             |C17414     |
-|U11, U13, U15, U17                                |QFN-24_L4.0-W4.0-P0.50-BL-EP2.6    |4       |IP6518          |C181688    |
-|U2                                                |ESSOP-10_L4.9-W3.9-P1.0-LS6.0-TL-EP|1       |CH224K          |C970725    |
-|USB1, USB10, USB11, USB12, USB9                   |USB-C-SMD_TYPE-C-16PIN-2MD-073     |5       |TYPE-C 16PIN 2MD|C2765186   |
+|Designator                                        |Footprint                          |Quantity|Value           |LCSC Part #|Link|
+|--------------------------------------------------|-----------------------------------|--------|----------------|-----------|----|
+|C1                                                |C0603                              |1       |1uf             |C15849     |[link](https://www.lcsc.com/product-detail/C15849.html)|
+|C10, C11, C12, C13, C2, C3, C4, C5, C6, C7, C8, C9|C0603                              |12      |22uF            |C59461     |[link](https://www.lcsc.com/product-detail/C59461.html)|
+|C14                                               |C1206                              |1       |100uF           |C15008     |[link](https://www.lcsc.com/product-detail/C15008.html)|
+|C32, C34, C39, C41, C46, C48, C53, C55            |C0402                              |8       |100nF           |C1525      |[link](https://www.lcsc.com/product-detail/C1525.html)|
+|C33, C40, C47, C54                                |C0402                              |4       |1nF             |C1523      |[link](https://www.lcsc.com/product-detail/C1523.html)|
+|F1                                                |FUSE-SMD_2410-T4A-125V             |1       |4A fuse         |C5220739   |[link](https://www.lcsc.com/product-detail/C5220739.html)|
+|L1, L2, L3, L4                                    |IND-SMD_L14.4-W12.8                |4       |SLO1350H220MTT  |C364085    |[link](https://www.lcsc.com/product-detail/C364085.html)|
+|LED1, LED6, LED7, LED8, LED9                      |LED0805-R-RD                       |5       |0805G           |C2297      |[link](https://www.lcsc.com/product-detail/C2297.html)|
+|R16, R17, R19, R20, R21, R22, R23, R25, R26       |R0402                              |9       |3.3kΩ           |C25890     |[link](https://www.lcsc.com/product-detail/C25890.html)|
+|R2                                                |R0402                              |1       |1k              |C11702     |[link](https://www.lcsc.com/product-detail/C11702.html)|
+|R3, R4, R5, R6                                    |R0603                              |4       |2Ω              |C22977     |[link](https://www.lcsc.com/product-detail/C22977.html)|
+|U1                                                |R0805                              |1       |10k             |C17414     |[link](https://www.lcsc.com/product-detail/C17414.html)|
+|U11, U13, U15, U17                                |QFN-24_L4.0-W4.0-P0.50-BL-EP2.6    |4       |IP6518          |C181688    |[link](https://www.lcsc.com/product-detail/C181688.html)|
+|U2                                                |ESSOP-10_L4.9-W3.9-P1.0-LS6.0-TL-EP|1       |CH224K          |C970725    |[link](https://www.lcsc.com/product-detail/C970725.html)|
+|USB1, USB10, USB11, USB12, USB9                   |USB-C-SMD_TYPE-C-16PIN-2MD-073     |5       |TYPE-C 16PIN 2MD|C2765186   |[link](https://www.lcsc.com/product-detail/C2765186.html)|
