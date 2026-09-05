@@ -11,6 +11,7 @@ Thanks to the IP6518, it should support:
  - BC1.2 charging
  - Qualcomm QC2.0 and 3.0 charging
  - Apple, Huawei, Samsung, and Spreadtrum fast charging protocols
+   - I don't have any huawei phones, but maybe you do! You can use chrg to charge them.
 
  Of course, YMMV when plugging in multiple devices. It's mostly bottlenecked by the wattage of your upstream brick (or alternatively 45W as the ip6518 spec says).
 
@@ -71,6 +72,8 @@ Don't just take it from me! Hear what users are saying about chrg
 > *this shit is not passing tsa bro*
 
 > *Scary*
+
+> *CHAAARGGGGEEEEEEE!!!!!!!!!!!!!!*
 
 
 ## BOM
