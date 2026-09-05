@@ -1,13 +1,5 @@
 # chrg
 
-## Note to the reviewer
-
-I'll delete this section after review. Anyways, my previous rejection was for not having links in BOM, and not writing why I made this project. 
-
-My readme has a section on why I made this project, and I have added links to my README BOM, so I'm resubmitting!
-
----
-
 ![](blend/render1.png)
 
 chrg is a usbc charging hub. You can use it to charge your devices! It uses a CH224K PD sink as input, and then 4xIP6518 PD source controllers as output. 
