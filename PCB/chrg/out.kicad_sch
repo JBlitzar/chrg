@@ -5,6 +5,301 @@
 	(uuid "5824056c-fbb8-47cd-b005-e366c9f0dd72")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc:0603WAF200KT5E"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -658,197 +953,6 @@
 				)
 			)
 			(symbol "CGA0603X7R104M500JT_0_1"
-				(polyline
-					(pts
-						(xy -0.51 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 -2.03) (xy -0.51 2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "lcsc:CL10A226MQ8NRNC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CL10A226MQ8NRNC"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A226MQ8NRNC_22uF-226-20-6-3V_C59461.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "SAMSUNG(三星)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CL10A226MQ8NRNC"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C59461"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CL10A226MQ8NRNC_0_1"
 				(polyline
 					(pts
 						(xy -0.51 0) (xy -2.54 0)
@@ -2395,6 +2499,12 @@
 		(uuid "b026c651-144f-4160-80f0-e7fdc3a52a74")
 	)
 	(junction
+		(at 91.44 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be8dcf05-33ce-4fbb-abc0-e5da81469ce7")
+	)
+	(junction
 		(at 88.9 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2456,6 +2566,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 80.01) (xy 91.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23fad536-e469-45e6-920e-fc3c051140d1")
+	)
+	(wire
+		(pts
 			(xy 59.69 46.99) (xy 59.69 44.45)
 		)
 		(stroke
@@ -2466,6 +2586,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 67.31) (xy 83.82 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4da72815-8570-4b90-991a-d2d11dc383f1")
+	)
+	(wire
+		(pts
 			(xy 125.73 39.37) (xy 125.73 36.83)
 		)
 		(stroke
@@ -2473,6 +2603,16 @@
 			(type default)
 		)
 		(uuid "56c57341-245d-4b7d-9a86-1d07255b1ea0")
+	)
+	(wire
+		(pts
+			(xy 38.1 80.01) (xy 38.1 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f05a786-a5d5-4f59-b9e0-f243b2d81aae")
 	)
 	(wire
 		(pts
@@ -2496,6 +2636,36 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 80.01) (xy 91.44 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "669c49f7-1df0-4bda-bc39-a96413232d80")
+	)
+	(wire
+		(pts
+			(xy 87.63 36.83) (xy 88.9 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea05653-979c-4d63-8b76-58afc2ad4f1f")
+	)
+	(wire
+		(pts
+			(xy 44.45 80.01) (xy 38.1 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765e61c1-aa62-49f4-9481-79c3a4167533")
+	)
+	(wire
+		(pts
 			(xy 62.23 48.26) (xy 62.23 54.61)
 		)
 		(stroke
@@ -2506,13 +2676,13 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 80.01) (xy 100.33 80.01)
+			(xy 92.71 67.31) (xy 91.44 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7b5eaf07-4ba0-409e-a456-6644742b4975")
+		(uuid "7d14ee23-2307-4f0a-be20-177c233a9188")
 	)
 	(wire
 		(pts
@@ -2536,6 +2706,36 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 36.83) (xy 95.25 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9235e18d-7be7-4ff7-9ed4-7c385c8351a4")
+	)
+	(wire
+		(pts
+			(xy 29.21 81.28) (xy 29.21 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9599fb30-baf7-4f78-946e-976e693080bc")
+	)
+	(wire
+		(pts
+			(xy 95.25 46.99) (xy 95.25 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3cdf4f6-53cf-45df-acfa-f26534a7ff86")
+	)
+	(wire
+		(pts
 			(xy 95.25 36.83) (xy 125.73 36.83)
 		)
 		(stroke
@@ -2543,6 +2743,16 @@
 			(type default)
 		)
 		(uuid "a4ec7f44-cf20-4d6d-b260-7eb3067ad9b9")
+	)
+	(wire
+		(pts
+			(xy 74.93 36.83) (xy 80.01 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a67a9c97-e0f4-4dc1-a2f3-1e419590d18c")
 	)
 	(wire
 		(pts
@@ -2586,16 +2796,6 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 69.85) (xy 29.21 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b628bee5-4e94-4282-8d8f-2d9442670f36")
-	)
-	(wire
-		(pts
 			(xy 82.55 69.85) (xy 82.55 72.39)
 		)
 		(stroke
@@ -2606,13 +2806,13 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 36.83) (xy 88.9 36.83)
+			(xy 29.21 69.85) (xy 29.21 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc64573d-082a-4022-9c72-9c2f6e650ab1")
+		(uuid "c60813c6-3f6e-4518-ad54-3e169704f3ff")
 	)
 	(wire
 		(pts
@@ -2683,6 +2883,16 @@
 			(type default)
 		)
 		(uuid "eebff376-ce4a-4b4f-87ae-1571c308d906")
+	)
+	(wire
+		(pts
+			(xy 91.44 80.01) (xy 100.33 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2b1936d-49f7-46a6-ad84-b205fbc1ba69")
 	)
 	(wire
 		(pts
@@ -2794,6 +3004,16 @@
 		)
 		(uuid "c98d6c62-a2d6-436b-b851-3ae15506a4a4")
 	)
+	(label "VSP"
+		(at 83.82 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9f359b6-0911-4911-abb5-440f104f4bb7")
+	)
 	(label "VOUT1"
 		(at 140.97 33.02 0)
 		(effects
@@ -2833,6 +3053,16 @@
 			(justify right bottom)
 		)
 		(uuid "ef1ddbda-c598-4208-aafd-122d8dc0812f")
+	)
+	(label "VSP"
+		(at 76.2 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f129d87a-b042-47e7-9628-b1c4a0c5cbc8")
 	)
 	(label "D1-"
 		(at 114.3 86.36 180)
@@ -3011,6 +3241,95 @@
 				)
 				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/f72d401b-64a9-418f-a9c0-87adba67f048"
 					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 91.44 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "02801a1c-83a5-4bd9-b0f6-64107fb19b17")
+		(property "Reference" "#PWR0141"
+			(at 91.44 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c2e762d-6162-4ec6-8b00-d0155ec030f5")
+		)
+		(instances
+			(project "chrg"
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/008349a9-e580-4854-bbec-06b61ef06a6b"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/27617b1d-fd99-4571-a151-dc69e7cb18d7"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/530af39d-cd18-44af-97ca-e70c472550e3"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/f72d401b-64a9-418f-a9c0-87adba67f048"
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -3414,6 +3733,132 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 91.44 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26f815ce-37eb-4aee-9287-c168d2365db0")
+		(property "Reference" "C30"
+			(at 95.25 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 95.25 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 91.44 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C52711259.pdf"
+			(at 91.44 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF 50V X7R 0603"
+			(at 91.44 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "HRE(芯声)"
+			(at 91.44 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CGA0603X7R104M500JT"
+			(at 91.44 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C52711259"
+			(at 91.44 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "965331a2-71d5-4667-b883-1168fb3c0e6f")
+		)
+		(pin "2"
+			(uuid "dc9a50ec-6e10-4b88-9c3d-e2126d124029")
+		)
+		(instances
+			(project "chrg"
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/008349a9-e580-4854-bbec-06b61ef06a6b"
+					(reference "C31")
+					(unit 1)
+				)
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/27617b1d-fd99-4571-a151-dc69e7cb18d7"
+					(reference "C33")
+					(unit 1)
+				)
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/530af39d-cd18-44af-97ca-e70c472550e3"
+					(reference "C32")
+					(unit 1)
+				)
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/f72d401b-64a9-418f-a9c0-87adba67f048"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 132.08 71.12 0)
 		(unit 1)
@@ -3693,6 +4138,95 @@
 				)
 				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/f72d401b-64a9-418f-a9c0-87adba67f048"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 38.1 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42b8fbe9-7cd0-457c-a6c9-4c4bd4f3c54b")
+		(property "Reference" "#PWR0137"
+			(at 38.1 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92350321-8991-4b5d-b240-96249183a44f")
+		)
+		(instances
+			(project "chrg"
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/008349a9-e580-4854-bbec-06b61ef06a6b"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/27617b1d-fd99-4571-a151-dc69e7cb18d7"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/530af39d-cd18-44af-97ca-e70c472550e3"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/f72d401b-64a9-418f-a9c0-87adba67f048"
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -4096,8 +4630,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CL10A226MQ8NRNC")
-		(at 87.63 67.31 0)
+		(lib_id "Device:C")
+		(at 87.63 67.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4108,7 +4642,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e1b2cf8-eed4-41e4-9066-d06ea8473ece")
 		(property "Reference" "C6"
-			(at 87.63 60.96 0)
+			(at 87.63 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4118,7 +4652,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 87.63 63.5 0)
+			(at 87.63 63.5 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4127,7 +4661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 87.63 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -4138,7 +4672,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A226MQ8NRNC_22uF-226-20-6-3V_C59461.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C778721.pdf"
 			(at 87.63 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -4149,7 +4683,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22uF 35V X5R 1210"
 			(at 87.63 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4160,7 +4694,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "TAIYO YUDEN(太阳诱电)"
 			(at 87.63 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -4171,7 +4705,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10A226MQ8NRNC"
+		(property "MPN" "GMK325BJ226MM-P"
 			(at 87.63 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -4182,7 +4716,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C59461"
+		(property "LCSC Part" "C778721"
 			(at 87.63 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -4526,6 +5060,130 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 83.82 36.83 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "78c62537-51ad-4dc5-ae56-d6f6fecf33c1")
+		(property "Reference" "R20"
+			(at 83.82 33.02 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20mΩ"
+			(at 83.82 40.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 83.82 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7420010.pdf"
+			(at 83.82 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "20mΩ 1% 1W ±50ppm 1206"
+			(at 83.82 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FOJAN(富捷)"
+			(at 83.82 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FRM121WFR020TM"
+			(at 83.82 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C7420010"
+			(at 83.82 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51a60f9a-37cd-4bfa-916b-dfe11b7baffa")
+		)
+		(pin "2"
+			(uuid "f08ec200-9413-4a25-9796-5d6edb3ad884")
+		)
+		(instances
+			(project "chrg"
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/008349a9-e580-4854-bbec-06b61ef06a6b"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/27617b1d-fd99-4571-a151-dc69e7cb18d7"
+					(reference "R23")
+					(unit 1)
+				)
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/530af39d-cd18-44af-97ca-e70c472550e3"
+					(reference "R22")
+					(unit 1)
+				)
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/f72d401b-64a9-418f-a9c0-87adba67f048"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 125.73 49.53 0)
 		(unit 1)
@@ -4616,8 +5274,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CL10A226MQ8NRNC")
-		(at 95.25 41.91 90)
+		(lib_id "Device:C")
+		(at 95.25 41.91 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4628,7 +5286,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ae5164f-ef45-4d9a-9f61-dd983aab04f8")
 		(property "Reference" "C10"
-			(at 99.06 40.6399 90)
+			(at 99.06 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4639,7 +5297,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 99.06 43.1799 90)
+			(at 99.06 43.1799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4649,7 +5307,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 102.87 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4660,7 +5318,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A226MQ8NRNC_22uF-226-20-6-3V_C59461.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C778721.pdf"
 			(at 105.41 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4671,7 +5329,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22uF 35V X5R 1210"
 			(at 95.25 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4682,7 +5340,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "TAIYO YUDEN(太阳诱电)"
 			(at 107.95 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4693,7 +5351,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10A226MQ8NRNC"
+		(property "MPN" "GMK325BJ226MM-P"
 			(at 110.49 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -4704,7 +5362,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C59461"
+		(property "LCSC Part" "C778721"
 			(at 113.03 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5212,8 +5870,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CL10A226MQ8NRNC")
-		(at 29.21 76.2 90)
+		(lib_id "Device:C")
+		(at 29.21 76.2 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5224,7 +5882,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf4d4240-9c6c-42e2-a51f-43a781ca3349")
 		(property "Reference" "C2"
-			(at 33.02 74.9299 90)
+			(at 33.02 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5235,7 +5893,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 33.02 77.4699 90)
+			(at 33.02 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5245,7 +5903,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 36.83 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5256,7 +5914,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10A226MQ8NRNC_22uF-226-20-6-3V_C59461.html"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C778721.pdf"
 			(at 39.37 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5267,7 +5925,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22uF 35V X5R 1210"
 			(at 29.21 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5278,7 +5936,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "SAMSUNG(三星)"
+		(property "Manufacturer" "TAIYO YUDEN(太阳诱电)"
 			(at 41.91 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5289,7 +5947,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10A226MQ8NRNC"
+		(property "MPN" "GMK325BJ226MM-P"
 			(at 44.45 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5300,7 +5958,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C59461"
+		(property "LCSC Part" "C778721"
 			(at 46.99 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5333,6 +5991,132 @@
 				)
 				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/f72d401b-64a9-418f-a9c0-87adba67f048"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 38.1 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dc4aaf96-5607-49ce-ac9d-f762313cbc73")
+		(property "Reference" "R16"
+			(at 41.91 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "75k"
+			(at 41.91 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 38.1 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C23242.pdf"
+			(at 38.1 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "75k 1% 0603"
+			(at 38.1 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 38.1 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "0603WAF7502T5E"
+			(at 38.1 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C23242"
+			(at 38.1 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7cced2c5-db0c-46ec-944d-0c0eeda10d7e")
+		)
+		(pin "2"
+			(uuid "d21e18b3-0bfd-47a0-854d-fea3d85753ac")
+		)
+		(instances
+			(project "chrg"
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/008349a9-e580-4854-bbec-06b61ef06a6b"
+					(reference "R17")
+					(unit 1)
+				)
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/27617b1d-fd99-4571-a151-dc69e7cb18d7"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/530af39d-cd18-44af-97ca-e70c472550e3"
+					(reference "R18")
+					(unit 1)
+				)
+				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389/f72d401b-64a9-418f-a9c0-87adba67f048"
+					(reference "R16")
 					(unit 1)
 				)
 			)

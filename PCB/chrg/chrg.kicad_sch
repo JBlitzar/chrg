@@ -5,6 +5,301 @@
 	(uuid "920d1772-7161-4a61-b520-2dcc7a0fc389")
 	(paper "A5")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -474,197 +769,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc:CGA1206X5R476M250NT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CGA1206X5R476M250NT"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "easyeda2kicad:C1206"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C6119973.pdf"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "HRE(芯声)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CGA1206X5R476M250NT"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C6119973"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CGA1206X5R476M250NT_0_1"
-				(polyline
-					(pts
-						(xy -0.51 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 -2.03) (xy -0.51 2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "lcsc:CH224K"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -971,659 +1075,6 @@
 						)
 					)
 					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "lcsc:CL10B105KA8NNNC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "CL10B105KA8NNNC"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL10B105KA8NNNC_1uF-105-10-25V-X7R_C29936.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1uF (105) ±10% 25V X7R"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "SAMSUNG(三星)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "CL10B105KA8NNNC"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C29936"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Multilayer Ceramic Capacitors MLCC - SMD/SMT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CL10B105KA8NNNC_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.51 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.51 2.03) (xy -0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 2.03) (xy 0.51 -2.03)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.51 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "lcsc:FRC0603F3301TS"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FRC0603F3301TS"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C2907023.pdf"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "FOJAN(富捷)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "FRC0603F3301TS"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C2907023"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Chip Resistor - Surface Mount"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FRC0603F3301TS_0_1"
-				(rectangle
-					(start -2.54 1.27)
-					(end 2.54 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "lcsc:RC0603FR-0710KL"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RC0603FR-0710KL"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1_C98220.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RC0603FR-0710KL"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C98220"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Resistors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RC0603FR-0710KL_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "lcsc:RC0603FR-071KL"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "RC0603FR-071KL"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1KR-1001-1_C22548.html"
-				(at 0 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "1KΩ (1001) ±1%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer" "YAGEO(国巨)"
-				(at 0 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "MPN" "RC0603FR-071KL"
-				(at 0 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC Part" "C22548"
-				(at 0 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Resistors"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RC0603FR-071KL_0_1"
-				(rectangle
-					(start -2.54 1.02)
-					(end 2.54 -1.02)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2142,12 +1593,12 @@
 		)
 		(uuid "1581f13d-02c5-4c75-98b4-94205e05f3cb")
 	)
-	(text "010 -> 20V requested"
+	(text "CH224A CFG1=0, CFG2=1 (NC, internal pull-up),\nCFG3=1 (NC) -> 20V"
 		(exclude_from_sim no)
-		(at 117.348 55.118 0)
+		(at 119.38 54.61 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.016 1.016)
 			)
 		)
 		(uuid "361151cd-ca32-45ce-a92f-22084cd19bec")
@@ -2158,11 +1609,13 @@
 		(color 0 0 0 0)
 		(uuid "44b2e54a-d6b1-4f8c-b8a8-80935114a3b7")
 	)
-	(junction
-		(at 111.76 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d264abc-26e0-4777-9d5c-44aebb111dfc")
+	(no_connect
+		(at 74.93 40.64)
+		(uuid "17e12f6d-f8d8-44ae-aa5c-323c5dee06b0")
+	)
+	(no_connect
+		(at 74.93 43.18)
+		(uuid "638bfddc-a36b-4c41-a05e-c797c0c0383c")
 	)
 	(no_connect
 		(at 45.72 39.37)
@@ -2171,6 +1624,16 @@
 	(no_connect
 		(at 45.72 54.61)
 		(uuid "74c5b872-0795-4d6a-9f51-e4b0d0682068")
+	)
+	(wire
+		(pts
+			(xy 113.03 46.99) (xy 114.3 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "056005a6-d779-4ace-a308-682ee2e4b85a")
 	)
 	(wire
 		(pts
@@ -2184,23 +1647,23 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 26.67) (xy 113.03 26.67)
+			(xy 124.46 46.99) (xy 125.73 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "591f9b1c-102d-43d0-8e4f-99c5f8096cc8")
+		(uuid "5d6adaaa-3f22-4d86-9039-be240d184c9c")
 	)
 	(wire
 		(pts
-			(xy 113.03 26.67) (xy 113.03 24.13)
+			(xy 54.61 21.59) (xy 55.88 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5cef6cf7-378c-444c-85da-5dfd444d7c14")
+		(uuid "73dba9c7-b363-4bc6-8821-e509aba84106")
 	)
 	(wire
 		(pts
@@ -2211,16 +1674,6 @@
 			(type default)
 		)
 		(uuid "74e24c6a-c6fb-4c6b-9b06-25e27a309400")
-	)
-	(wire
-		(pts
-			(xy 114.3 62.23) (xy 114.3 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7938fa74-ca26-47c3-bbdc-45d6e2f2da1f")
 	)
 	(wire
 		(pts
@@ -2244,13 +1697,33 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 26.67) (xy 111.76 26.67)
+			(xy 54.61 29.21) (xy 55.88 29.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e71fba7e-4b3e-43e9-bde0-aeceea77988e")
+		(uuid "e2c296b8-943b-4c93-90b1-ff52b0a6ba50")
+	)
+	(wire
+		(pts
+			(xy 134.62 46.99) (xy 133.35 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecbc6d59-aecf-4fa4-898b-c5d3550a3dd8")
+	)
+	(wire
+		(pts
+			(xy 64.77 29.21) (xy 63.5 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2af042-985e-4e93-a445-fcbc09d31387")
 	)
 	(wire
 		(pts
@@ -2262,13 +1735,33 @@
 		)
 		(uuid "f71f7c5e-97d0-41a9-8820-a4f3fcc21412")
 	)
+	(wire
+		(pts
+			(xy 64.77 21.59) (xy 63.5 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9cc425d-aac8-4635-9f40-1ab9a982b794")
+	)
+	(wire
+		(pts
+			(xy 64.77 54.61) (xy 74.93 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff57f721-317f-4d53-9aa8-9aa59c158f74")
+	)
 	(label "PG"
-		(at 114.3 46.99 0)
+		(at 113.03 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "0ba2fab0-a96b-4b16-b22b-257db951c921")
 	)
@@ -2312,16 +1805,6 @@
 		)
 		(uuid "1a8fed32-62a7-4116-9d5f-ac54a229b2e5")
 	)
-	(label "CFG3"
-		(at 123.19 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c214745-fe5d-4383-909b-ff0c63ea7a7b")
-	)
 	(label "CC1"
 		(at 74.93 57.15 180)
 		(effects
@@ -2341,26 +1824,6 @@
 			(justify left bottom)
 		)
 		(uuid "247d44a8-aef1-4fc3-98f5-03bb3eb93003")
-	)
-	(label "VDD"
-		(at 114.3 62.23 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "33c02573-83a9-4e26-aebc-7eb0271c8a64")
-	)
-	(label "CFG2"
-		(at 114.3 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "59246f52-61e0-4277-ba60-52c85212a253")
 	)
 	(label "PG"
 		(at 96.52 48.26 0)
@@ -2382,16 +1845,6 @@
 		)
 		(uuid "617f4d5e-b689-4937-b40a-650ac6914cfe")
 	)
-	(label "CFG3"
-		(at 74.93 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "64788a3b-e12f-45f2-8c72-350b360b53d1")
-	)
 	(label "CC1"
 		(at 45.72 52.07 0)
 		(effects
@@ -2412,7 +1865,7 @@
 		)
 		(uuid "73b8887e-0f0f-4db7-88e5-075caab7ec9c")
 	)
-	(label "VDD"
+	(label "VBUS"
 		(at 134.62 46.99 0)
 		(effects
 			(font
@@ -2482,7 +1935,7 @@
 		)
 		(uuid "ca6717eb-253c-495c-bffb-ef15bb45ef84")
 	)
-	(label "VDD"
+	(label "VBUS"
 		(at 96.52 38.1 0)
 		(effects
 			(font
@@ -2503,17 +1956,7 @@
 		(uuid "d006a0e0-b5e9-4e09-8fe5-aaf0123408a7")
 	)
 	(label "VBUS"
-		(at 96.52 26.67 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d2f45ed4-1baa-4c30-9f12-76f787eaa49d")
-	)
-	(label "VDD"
-		(at 113.03 24.13 0)
+		(at 111.76 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2521,16 +1964,6 @@
 			(justify left bottom)
 		)
 		(uuid "d5b3b7a3-e63d-41ae-bcf2-06a9898e88e0")
-	)
-	(label "CFG2"
-		(at 74.93 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eeadebed-cb9d-489d-934d-36a1883d5ce4")
 	)
 	(global_label "VIN"
 		(shape input)
@@ -2581,8 +2014,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CGA1206X5R476M250NT")
-		(at 59.69 21.59 180)
+		(lib_id "Device:C")
+		(at 59.69 21.59 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2593,7 +2026,7 @@
 		(fields_autoplaced yes)
 		(uuid "06e9f05d-b44c-40b0-9194-234c9064829e")
 		(property "Reference" "C28"
-			(at 59.69 15.24 0)
+			(at 59.69 15.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2602,8 +2035,8 @@
 				)
 			)
 		)
-		(property "Value" "47uF"
-			(at 59.69 17.78 0)
+		(property "Value" "22uF"
+			(at 59.69 17.78 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2612,7 +2045,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 59.69 13.97 0)
 			(hide yes)
 			(show_name no)
@@ -2623,7 +2056,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C6119973.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C778721.pdf"
 			(at 59.69 11.43 0)
 			(hide yes)
 			(show_name no)
@@ -2634,7 +2067,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22uF 35V X5R 1210"
 			(at 59.69 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -2645,7 +2078,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "HRE(芯声)"
+		(property "Manufacturer" "TAIYO YUDEN(太阳诱电)"
 			(at 59.69 8.89 0)
 			(hide yes)
 			(show_name no)
@@ -2656,7 +2089,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA1206X5R476M250NT"
+		(property "MPN" "GMK325BJ226MM-P"
 			(at 59.69 6.35 0)
 			(hide yes)
 			(show_name no)
@@ -2667,7 +2100,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C6119973"
+		(property "LCSC Part" "C778721"
 			(at 59.69 3.81 0)
 			(hide yes)
 			(show_name no)
@@ -2688,119 +2121,6 @@
 			(project "chrg"
 				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc:RC0603FR-0710KL")
-		(at 69.85 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0dfb84f2-55b2-4de7-ba7a-76ef116245a0")
-		(property "Reference" "R2"
-			(at 69.85 49.53 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 69.85 50.8 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 69.85 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_10KR-1_C98220.html"
-			(at 69.85 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 69.85 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 69.85 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0603FR-0710KL"
-			(at 69.85 69.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C98220"
-			(at 69.85 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3f2c12c8-d0c1-43cb-a2d1-04cb9fe75b66")
-		)
-		(pin "1"
-			(uuid "d4ef0e83-e1e9-4498-9628-03a7af1ff910")
-		)
-		(instances
-			(project "chrg"
-				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389"
-					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2998,119 +2318,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:RC0603FR-071KL")
-		(at 101.6 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47986527-24f1-4928-bae5-76a6686252b1")
-		(property "Reference" "R1"
-			(at 101.6 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 101.6 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 101.6 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_1KR-1001-1_C22548.html"
-			(at 101.6 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1KΩ (1001) ±1%"
-			(at 101.6 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YAGEO(国巨)"
-			(at 101.6 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "RC0603FR-071KL"
-			(at 101.6 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C22548"
-			(at 101.6 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "eb270bcc-47aa-4b0d-bd21-83c71ca3f75f")
-		)
-		(pin "2"
-			(uuid "772b7aef-ac0a-4d1e-9302-e49b9f5e9883")
-		)
-		(instances
-			(project "chrg"
-				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 124.46 33.02 0)
 		(unit 1)
@@ -3187,8 +2394,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CGA1206X5R476M250NT")
-		(at 59.69 29.21 180)
+		(lib_id "Device:C")
+		(at 59.69 29.21 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3199,26 +2406,28 @@
 		(fields_autoplaced yes)
 		(uuid "76bd8658-bc33-44dc-8c86-2134602c653c")
 		(property "Reference" "C29"
-			(at 59.69 22.86 0)
+			(at 66.04 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "47uF"
-			(at 59.69 25.4 0)
+		(property "Value" "22uF"
+			(at 66.04 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 59.69 21.59 0)
 			(hide yes)
 			(show_name no)
@@ -3229,7 +2438,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C6119973.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C778721.pdf"
 			(at 59.69 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -3240,7 +2449,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "22uF 35V X5R 1210"
 			(at 59.69 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -3251,7 +2460,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "HRE(芯声)"
+		(property "Manufacturer" "TAIYO YUDEN(太阳诱电)"
 			(at 59.69 16.51 0)
 			(hide yes)
 			(show_name no)
@@ -3262,7 +2471,7 @@
 				)
 			)
 		)
-		(property "MPN" "CGA1206X5R476M250NT"
+		(property "MPN" "GMK325BJ226MM-P"
 			(at 59.69 13.97 0)
 			(hide yes)
 			(show_name no)
@@ -3273,7 +2482,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C6119973"
+		(property "LCSC Part" "C778721"
 			(at 59.69 11.43 0)
 			(hide yes)
 			(show_name no)
@@ -3376,8 +2585,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:CL10B105KA8NNNC")
-		(at 111.76 30.48 90)
+		(lib_id "Device:C")
+		(at 111.76 30.48 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3388,7 +2597,7 @@
 		(fields_autoplaced yes)
 		(uuid "7dfefcd3-c164-4658-91dc-64dd7c1b47fb")
 		(property "Reference" "C1"
-			(at 115.57 29.2099 90)
+			(at 115.57 29.2099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3398,8 +2607,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1uf"
-			(at 115.57 31.7499 90)
+		(property "Value" "1uF"
+			(at 115.57 31.7499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3420,7 +2629,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C54824972.pdf"
 			(at 121.92 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3431,7 +2640,7 @@
 				)
 			)
 		)
-		(property "Description" "CAP CER 1uF 50V X5R 0603"
+		(property "Description" "1uF 50V X7R 0603"
 			(at 111.76 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3442,7 +2651,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "GYZ"
 			(at 124.46 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3453,7 +2662,7 @@
 				)
 			)
 		)
-		(property "MPN" "CL10B105KA8NNNC"
+		(property "MPN" "2F01MC105X3M9D0"
 			(at 127 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3464,7 +2673,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C29936"
+		(property "LCSC Part" "C54824972"
 			(at 129.54 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -3979,84 +3188,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4a7e675-05ce-4fc7-b17d-8d947bbd03cd")
-		(property "Reference" "#PWR09"
-			(at 123.19 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.19 64.77 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 123.19 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30a44289-2437-4e89-b3e4-62ddfa53a75e")
-		)
-		(instances
-			(project "chrg"
-				(path "/920d1772-7161-4a61-b520-2dcc7a0fc389"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 27.94 31.75 0)
 		(unit 1)
 		(body_style 1)
@@ -4134,8 +3265,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:FRC0603F3301TS")
-		(at 129.54 46.99 0)
+		(lib_id "Device:R")
+		(at 129.54 46.99 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4146,7 +3277,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf40849e-aaf7-4a74-b777-6aa3fc247bdf")
 		(property "Reference" "R7"
-			(at 129.54 40.64 0)
+			(at 129.54 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4155,8 +3286,8 @@
 				)
 			)
 		)
-		(property "Value" "3.3k"
-			(at 129.54 43.18 0)
+		(property "Value" "10k"
+			(at 129.54 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4176,7 +3307,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2907023.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C98220.pdf"
 			(at 129.54 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -4187,7 +3318,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "10k 1% 0603"
 			(at 129.54 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -4198,7 +3329,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "FOJAN(富捷)"
+		(property "Manufacturer" "YAGEO(国巨)"
 			(at 129.54 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -4209,7 +3340,7 @@
 				)
 			)
 		)
-		(property "MPN" "FRC0603F3301TS"
+		(property "MPN" "RC0603FR-0710KL"
 			(at 129.54 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -4220,7 +3351,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2907023"
+		(property "LCSC Part" "C98220"
 			(at 129.54 64.77 0)
 			(hide yes)
 			(show_name no)
